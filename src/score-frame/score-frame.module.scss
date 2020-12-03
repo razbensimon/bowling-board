@@ -1,0 +1,48 @@
+$frame-bg: rgb(249,249,213);
+$current-frame-bg: rgb(230,254,255);
+$frame-header: rgb(187,187,161);
+
+.container {
+  width: 6em;
+  border: 1px solid black;
+}
+
+.header {
+  background-color: $frame-header;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+.body{
+  background-color: $frame-bg;
+  height: 3em;
+}
+
+.active {
+  background-color: $current-frame-bg;
+}
+
+.shots {
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  text-align: center;
+
+  .shotBox {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    flex: 1;
+    &:first-child{
+      border: none;
+    }
+  }
+}
+
+.score {
+  height: 50%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

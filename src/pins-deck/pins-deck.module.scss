@@ -1,0 +1,25 @@
+$some-grey: rgb(236, 237, 241);
+$name-grey: rgb(221, 221, 221);
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+}
+
+.pinDeck {
+  display: flex;
+  flex-direction: row;
+  margin: 1em 0;
+}
+
+.pinBtn {
+  margin-right: 1em;
+  padding: 0.4em;
+}
+
+.hide {
+  display: none;
+}

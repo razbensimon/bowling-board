@@ -1,0 +1,20 @@
+$some-grey: rgb(236,237,241);
+$name-grey: rgb(221,221,221);
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.user{
+  background-color: $name-grey;
+  font-weight: bold;
+  padding: 0.4em 1em;
+}
+
+.frames {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
